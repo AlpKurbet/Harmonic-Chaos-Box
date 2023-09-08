@@ -1,0 +1,88 @@
+Event	ID	Name			Wwise Object Path	Notes
+	288343068	LowC			\Default Work Unit\LowC	
+	621108255	Step			\Default Work Unit\Step	
+	725405906	TheEvent			\Default Work Unit\TheEvent	
+	2099766676	PlayMouse			\Default Work Unit\PlayMouse	
+	2710193256	MidC			\Default Work Unit\MidC	
+	2710193260	MidG			\Default Work Unit\MidG	
+	2710193262	MidE			\Default Work Unit\MidE	
+	3775847764	ResumeEvent			\Default Work Unit\ResumeEvent	
+	4032683079	StopEvent			\Default Work Unit\StopEvent	
+	4288573746	PianoDrone			\Default Work Unit\PianoDrone	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1718617278	Steps			\Default Work Unit\Steps	
+	2552959309	LineEvent			\Default Work Unit\LineEvent	
+
+Switch	ID	Name	Switch Group			Notes
+	1182830809	Clock	Steps			
+	2181839183	Kick	Steps			
+	3652274034	Metallic	Steps			
+	3725073853	Cement	Steps			
+	4141131000	Option2	LineEvent			
+	4141131003	Option1	LineEvent			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	247465997	EventVolume			\Default Work Unit\EventVolume	
+	719730011	MouseVelocity			\Default Work Unit\MouseVelocity	
+	2825251599	DroneVolume			\Default Work Unit\DroneVolume	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	602546716	Room_Large	Wwise RoomVerb			
+	776837744	Born_In_1950	Wwise Parametric EQ			
+	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
+	2653529179	Three_Voices	Wwise Harmonizer			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9848742	clockTick1_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\clockTick1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Clock\clockTick1_1		96378
+	57810615	MetallicStep3_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\MetallicStep3_1_8882B43E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Metallic\MetallicStep3_1		96378
+	59672155	WheelAndPiano1_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\WheelAndPiano1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PianoDrone\WheelAndPiano1_1		2235520
+	61476036	clockTick2_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\clockTick2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Clock\clockTick2_1		96378
+	74056801	Kick5	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Kick5_E4A00EA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Kick\Kick5		96376
+	89598178	Cement_9	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Cement_9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Cement\Cement_9		33784
+	147127924	Cement_3	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Cement_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Cement\Cement_3		33784
+	148249433	Piano4_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Piano4_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PianoDrone\Piano4_1		2497664
+	154083153	MidG	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\MidG_37590C3A.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheMidG\MidG		1539652
+	190227368	WheelAndPiano3_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\WheelAndPiano3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PianoDrone\WheelAndPiano3_1		2235520
+	198825798	CalmerChords3	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\CalmerChords3_6CA8C969.wem		\Actor-Mixer Hierarchy\Default Work Unit\LineEvent\Calmer\CalmerChords3		385032
+	201120453	Cement_11	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Cement_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Cement\Cement_11		33784
+	211649292	MetallicStep4_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\MetallicStep4_1_A1539AC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Metallic\MetallicStep4_1		96378
+	224024069	LowC	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\LowC_ACDDFD22.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheLowC\LowC		1539652
+	264123750	CalmerChords4	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\CalmerChords4_4BBD3802.wem		\Actor-Mixer Hierarchy\Default Work Unit\LineEvent\Calmer\CalmerChords4		385032
+	270752016	Kick2	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Kick2_65F944FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Kick\Kick2		96376
+	299316055	clockTick3_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\clockTick3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Clock\clockTick3_1		96378
+	318495006	Mouse4	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Mouse4_9B554560.wem		\Actor-Mixer Hierarchy\Default Work Unit\MouseSound\Mouse4		2309396
+	318498963	Cement_4	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Cement_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Cement\Cement_4		33784
+	321649882	Piano1_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Piano1_1_D94BCD24.wem		\Actor-Mixer Hierarchy\Default Work Unit\PianoDrone\Piano1_1		2497664
+	335049912	MidE	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\MidE_D9F9D51E.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheMidE\MidE		1539652
+	380959729	Cement_8	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Cement_8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Cement\Cement_8		33784
+	410579854	MetallicStep2_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\MetallicStep2_1_1CBF006D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Metallic\MetallicStep2_1		96378
+	498843460	CalmerChords	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\CalmerChords_9CE6675F.wem		\Actor-Mixer Hierarchy\Default Work Unit\LineEvent\Calmer\CalmerChords		385036
+	509975710	Mouse2	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Mouse2_AC089DD8.wem		\Actor-Mixer Hierarchy\Default Work Unit\MouseSound\Mouse2		2309396
+	545849187	Chords4	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Chords4_BD4327BF.wem		\Actor-Mixer Hierarchy\Default Work Unit\LineEvent\Excited\Chords4		385032
+	557474274	Chords	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Chords_2737D5A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\LineEvent\Excited\Chords		385036
+	623470134	clockTick4_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\clockTick4_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Clock\clockTick4_1		96378
+	634272668	Piano3_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Piano3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PianoDrone\Piano3_1		2497664
+	640288818	MetallicStep5_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\MetallicStep5_1_E49EA8AE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Metallic\MetallicStep5_1		96378
+	641146432	Cement_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Cement_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Cement\Cement_1		33784
+	698721489	MidC	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\MidC_B64AA906.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheMidC\MidC		1539652
+	728011880	CalmerChords2	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\CalmerChords2_76FE8D05.wem		\Actor-Mixer Hierarchy\Default Work Unit\LineEvent\Calmer\CalmerChords2		385032
+	730315504	WheelAndPiano4_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\WheelAndPiano4_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PianoDrone\WheelAndPiano4_1		2366592
+	749423046	Kick	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Kick_5386EBF6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Kick\Kick		96380
+	766655302	Cement_5	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Cement_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Cement\Cement_5		33784
+	774783210	Chords2	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Chords2_82373EFC.wem		\Actor-Mixer Hierarchy\Default Work Unit\LineEvent\Excited\Chords2		385032
+	806063054	WheelAndPiano2_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\WheelAndPiano2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PianoDrone\WheelAndPiano2_1		2366592
+	855593718	Chords3	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Chords3_F15EEC37.wem		\Actor-Mixer Hierarchy\Default Work Unit\LineEvent\Excited\Chords3		385032
+	904785841	Cement_2	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Cement_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Cement\Cement_2		33784
+	906655307	MetallicStep1_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\MetallicStep1_1_223C228E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Metallic\MetallicStep1_1		96378
+	917264627	Cement_6	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Cement_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Cement\Cement_6		33784
+	920917745	Cement_10	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Cement_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Cement\Cement_10		33784
+	967545562	Kick3	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Kick3_0BBE7D25.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Kick\Kick3		96376
+	991384001	Mouse1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Mouse1_DE46509F.wem		\Actor-Mixer Hierarchy\Default Work Unit\MouseSound\Mouse1		2309396
+	996138448	Cement_12	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Cement_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Cement\Cement_12		33784
+	1036629017	Kick6	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Kick6_2608F8BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Kick\Kick6		96380
+	1036685769	Piano2_1	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Piano2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PianoDrone\Piano2_1		2497664
+	1059979416	Kick4	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Kick4_2C02837B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Kick\Kick4		96376
+	1068428341	Mouse3	Y:\Desktop\Alpi\Kodperen\Unity Trials\Unity\Harmonic Chaos Box\Harmonic Chaos Box_WwiseProject\.cache\Mac\SFX\Mouse3_F88B5ADF.wem		\Actor-Mixer Hierarchy\Default Work Unit\MouseSound\Mouse3		2309396
+

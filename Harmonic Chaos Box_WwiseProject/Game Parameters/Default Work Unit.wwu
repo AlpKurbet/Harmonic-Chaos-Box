@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{44DAC68C-BFA3-4A1A-ADD3-302BC78AD2FA}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{44DAC68C-BFA3-4A1A-ADD3-302BC78AD2FA}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="EventVolume" ID="{34E33EE9-50AB-4E45-B061-CB2A9FE91782}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="DroneVolume" ID="{1A4D1C75-8F25-47EF-817F-A2D3F0751591}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MouseVelocity" ID="{A2E9A0EF-CEE3-455C-B63E-D30D2E7D7BA0}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

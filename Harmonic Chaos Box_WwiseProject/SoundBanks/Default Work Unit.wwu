@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{77B11978-B95E-4EB0-9DC4-5236C0C94D76}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{77B11978-B95E-4EB0-9DC4-5236C0C94D76}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="TheMain" ID="{253938BC-1957-45A4-A202-F1F7CFB89BFC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PianoDrone" ID="{6742B967-4BEB-411E-9EB4-7076EF45C64F}" WorkUnitID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayMouse" ID="{4C764FA0-8412-463D-9367-6AFE10059089}" WorkUnitID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ResumeEvent" ID="{390840D2-0E8E-472C-B792-ECAE4B52F2E2}" WorkUnitID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopEvent" ID="{267D2AE7-AFFD-47AF-9BE1-EC6A0E5376F1}" WorkUnitID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MidE" ID="{347BB7CA-49B5-47ED-95C5-3823EBF076AF}" WorkUnitID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MidG" ID="{337EE8F2-8B30-47FF-8863-0FECBBE9A6DA}" WorkUnitID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MidC" ID="{68D2FDC8-C346-4A92-BC59-6CE8FABE3B72}" WorkUnitID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="LowC" ID="{232B0D46-7A90-4D43-949A-166F0256191A}" WorkUnitID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Step" ID="{70438BA6-B47B-4D86-AB5F-CE003A1F4AEF}" WorkUnitID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TheEvent" ID="{666EDDD6-3229-4E62-BD5A-8347C7FEBAC0}" WorkUnitID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

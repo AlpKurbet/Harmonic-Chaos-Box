@@ -1,0 +1,18 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+	357718954	Delay			\Default Work Unit\Master Audio Bus\Delay	
+	3322072377	Trem			\Default Work Unit\Master Audio Bus\Trem	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1431209347	One_Tap_One_Second	Wwise Delay			
+	2805769450	Special_Effect_1	Wwise Flanger			
+	3164629247	Holy	Wwise RoomVerb			
+	3250156175	Say_what	Wwise Tremolo			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

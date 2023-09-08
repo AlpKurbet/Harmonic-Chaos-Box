@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EADB5BEF-0841-07AC-9B73-FEB8A70538B5}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1431209347" Name="One_Tap_One_Second" LibName="Wwise Delay" LibId="6946819"/>
+					<Plugin Id="2805769450" Name="Special_Effect_1" LibName="Wwise Flanger" LibId="8192003"/>
+					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="3250156175" Name="Say_what" LibName="Wwise Tremolo" LibId="8585219"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="Reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="357718954" Name="Delay">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1431209347"/>
+							<PluginRef Id="2805769450"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3322072377" Name="Trem">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3250156175"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="247465997" Name="EventVolume"/>
+				<GameParameter Id="719730011" Name="MouseVelocity"/>
+				<GameParameter Id="2825251599" Name="DroneVolume"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1718617278" Name="Steps">
+					<Switches>
+						<Switch Id="1182830809" Name="Clock"/>
+						<Switch Id="2181839183" Name="Kick"/>
+						<Switch Id="3652274034" Name="Metallic"/>
+						<Switch Id="3725073853" Name="Cement"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2552959309" Name="LineEvent">
+					<Switches>
+						<Switch Id="4141131000" Name="Option2"/>
+						<Switch Id="4141131003" Name="Option1"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2645124865" Type="User" Language="SFX" Hash="{5170D5BE-80E5-DB7E-F94D-42CE1532E0F3}">
+			<ShortName>TheMain</ShortName>
+			<Path>TheMain.bnk</Path>
+			<Media>
+				<File Id="9848742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>clockTick1_1.wav</ShortName>
+					<CachePath>SFX/clockTick1_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="57810615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetallicStep3_1.wav</ShortName>
+					<CachePath>SFX/MetallicStep3_1_8882B43E.wem</CachePath>
+				</File>
+				<File Id="59672155" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WheelAndPiano1_1.wav</ShortName>
+					<CachePath>SFX/WheelAndPiano1_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="61476036" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>clockTick2_1.wav</ShortName>
+					<CachePath>SFX/clockTick2_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="74056801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Kick5.wav</ShortName>
+					<CachePath>SFX/Kick5_E4A00EA5.wem</CachePath>
+				</File>
+				<File Id="89598178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cement_9.wav</ShortName>
+					<CachePath>SFX/Cement_9_10C4C929.wem</CachePath>
+				</File>
+				<File Id="147127924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cement_3.wav</ShortName>
+					<CachePath>SFX/Cement_3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="148249433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano4_1.wav</ShortName>
+					<CachePath>SFX/Piano4_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="154083153" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MidG.wav</ShortName>
+					<CachePath>SFX/MidG_37590C3A.wem</CachePath>
+				</File>
+				<File Id="190227368" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WheelAndPiano3_1.wav</ShortName>
+					<CachePath>SFX/WheelAndPiano3_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="198825798" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CalmerChords3.wav</ShortName>
+					<CachePath>SFX/CalmerChords3_6CA8C969.wem</CachePath>
+				</File>
+				<File Id="201120453" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cement_11.wav</ShortName>
+					<CachePath>SFX/Cement_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="211649292" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetallicStep4_1.wav</ShortName>
+					<CachePath>SFX/MetallicStep4_1_A1539AC0.wem</CachePath>
+				</File>
+				<File Id="224024069" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LowC.wav</ShortName>
+					<CachePath>SFX/LowC_ACDDFD22.wem</CachePath>
+				</File>
+				<File Id="264123750" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CalmerChords4.wav</ShortName>
+					<CachePath>SFX/CalmerChords4_4BBD3802.wem</CachePath>
+				</File>
+				<File Id="270752016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Kick2.wav</ShortName>
+					<CachePath>SFX/Kick2_65F944FD.wem</CachePath>
+				</File>
+				<File Id="299316055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>clockTick3_1.wav</ShortName>
+					<CachePath>SFX/clockTick3_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="318495006" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mouse4.wav</ShortName>
+					<CachePath>SFX/Mouse4_9B554560.wem</CachePath>
+				</File>
+				<File Id="318498963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cement_4.wav</ShortName>
+					<CachePath>SFX/Cement_4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="321649882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano1_1.wav</ShortName>
+					<CachePath>SFX/Piano1_1_D94BCD24.wem</CachePath>
+				</File>
+				<File Id="335049912" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MidE.wav</ShortName>
+					<CachePath>SFX/MidE_D9F9D51E.wem</CachePath>
+				</File>
+				<File Id="380959729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cement_8.wav</ShortName>
+					<CachePath>SFX/Cement_8_10C4C929.wem</CachePath>
+				</File>
+				<File Id="410579854" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetallicStep2_1.wav</ShortName>
+					<CachePath>SFX/MetallicStep2_1_1CBF006D.wem</CachePath>
+				</File>
+				<File Id="498843460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CalmerChords.wav</ShortName>
+					<CachePath>SFX/CalmerChords_9CE6675F.wem</CachePath>
+				</File>
+				<File Id="509975710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mouse2.wav</ShortName>
+					<CachePath>SFX/Mouse2_AC089DD8.wem</CachePath>
+				</File>
+				<File Id="545849187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chords4.wav</ShortName>
+					<CachePath>SFX/Chords4_BD4327BF.wem</CachePath>
+				</File>
+				<File Id="557474274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chords.wav</ShortName>
+					<CachePath>SFX/Chords_2737D5A0.wem</CachePath>
+				</File>
+				<File Id="623470134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>clockTick4_1.wav</ShortName>
+					<CachePath>SFX/clockTick4_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="634272668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano3_1.wav</ShortName>
+					<CachePath>SFX/Piano3_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="640288818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetallicStep5_1.wav</ShortName>
+					<CachePath>SFX/MetallicStep5_1_E49EA8AE.wem</CachePath>
+				</File>
+				<File Id="641146432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cement_1.wav</ShortName>
+					<CachePath>SFX/Cement_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="698721489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MidC.wav</ShortName>
+					<CachePath>SFX/MidC_B64AA906.wem</CachePath>
+				</File>
+				<File Id="728011880" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CalmerChords2.wav</ShortName>
+					<CachePath>SFX/CalmerChords2_76FE8D05.wem</CachePath>
+				</File>
+				<File Id="730315504" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WheelAndPiano4_1.wav</ShortName>
+					<CachePath>SFX/WheelAndPiano4_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="749423046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Kick.wav</ShortName>
+					<CachePath>SFX/Kick_5386EBF6.wem</CachePath>
+				</File>
+				<File Id="766655302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cement_5.wav</ShortName>
+					<CachePath>SFX/Cement_5_10C4C929.wem</CachePath>
+				</File>
+				<File Id="774783210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chords2.wav</ShortName>
+					<CachePath>SFX/Chords2_82373EFC.wem</CachePath>
+				</File>
+				<File Id="806063054" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WheelAndPiano2_1.wav</ShortName>
+					<CachePath>SFX/WheelAndPiano2_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="855593718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chords3.wav</ShortName>
+					<CachePath>SFX/Chords3_F15EEC37.wem</CachePath>
+				</File>
+				<File Id="904785841" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cement_2.wav</ShortName>
+					<CachePath>SFX/Cement_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="906655307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetallicStep1_1.wav</ShortName>
+					<CachePath>SFX/MetallicStep1_1_223C228E.wem</CachePath>
+				</File>
+				<File Id="917264627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cement_6.wav</ShortName>
+					<CachePath>SFX/Cement_6_10C4C929.wem</CachePath>
+				</File>
+				<File Id="920917745" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cement_10.wav</ShortName>
+					<CachePath>SFX/Cement_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="967545562" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Kick3.wav</ShortName>
+					<CachePath>SFX/Kick3_0BBE7D25.wem</CachePath>
+				</File>
+				<File Id="991384001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mouse1.wav</ShortName>
+					<CachePath>SFX/Mouse1_DE46509F.wem</CachePath>
+				</File>
+				<File Id="996138448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cement_12.wav</ShortName>
+					<CachePath>SFX/Cement_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1036629017" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Kick6.wav</ShortName>
+					<CachePath>SFX/Kick6_2608F8BD.wem</CachePath>
+				</File>
+				<File Id="1036685769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piano2_1.wav</ShortName>
+					<CachePath>SFX/Piano2_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1059979416" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Kick4.wav</ShortName>
+					<CachePath>SFX/Kick4_2C02837B.wem</CachePath>
+				</File>
+				<File Id="1068428341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mouse3.wav</ShortName>
+					<CachePath>SFX/Mouse3_F88B5ADF.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="602546716" Name="Room_Large" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="776837744" Name="Born_In_1950" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="2080872166" Name="Brick_Wall_Minus_6dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
+					<Plugin Id="2653529179" Name="Three_Voices" LibName="Wwise Harmonizer" LibId="9043971"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="288343068" Name="LowC" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="224024069"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2710193256" Name="MidC" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="698721489"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2710193262" Name="MidE" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="335049912"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2710193260" Name="MidG" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="154083153"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4288573746" Name="PianoDrone" MaxAttenuation="32" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="59672155"/>
+						<MediaRef Id="148249433"/>
+						<MediaRef Id="190227368"/>
+						<MediaRef Id="321649882"/>
+						<MediaRef Id="634272668"/>
+						<MediaRef Id="730315504"/>
+						<MediaRef Id="806063054"/>
+						<MediaRef Id="1036685769"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="776837744"/>
+							<PluginRef Id="2080872166"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2099766676" Name="PlayMouse" MaxAttenuation="65" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="318495006"/>
+						<MediaRef Id="509975710"/>
+						<MediaRef Id="991384001"/>
+						<MediaRef Id="1068428341"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3775847764" Name="ResumeEvent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="621108255" Name="Step" DurationType="OneShot" DurationMin="0.19061224" DurationMax="1.090907">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1718617278" Id="3652274034"/>
+							<MediaRefs>
+								<MediaRef Id="57810615"/>
+								<MediaRef Id="211649292"/>
+								<MediaRef Id="410579854"/>
+								<MediaRef Id="640288818"/>
+								<MediaRef Id="906655307"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="602546716"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1718617278" Id="1182830809"/>
+							<MediaRefs>
+								<MediaRef Id="9848742"/>
+								<MediaRef Id="61476036"/>
+								<MediaRef Id="299316055"/>
+								<MediaRef Id="623470134"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="602546716"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1718617278" Id="3725073853" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="89598178"/>
+								<MediaRef Id="147127924"/>
+								<MediaRef Id="201120453"/>
+								<MediaRef Id="318498963"/>
+								<MediaRef Id="380959729"/>
+								<MediaRef Id="641146432"/>
+								<MediaRef Id="766655302"/>
+								<MediaRef Id="904785841"/>
+								<MediaRef Id="917264627"/>
+								<MediaRef Id="920917745"/>
+								<MediaRef Id="996138448"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="602546716"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1718617278" Id="2181839183"/>
+							<MediaRefs>
+								<MediaRef Id="74056801"/>
+								<MediaRef Id="270752016"/>
+								<MediaRef Id="749423046"/>
+								<MediaRef Id="967545562"/>
+								<MediaRef Id="1036629017"/>
+								<MediaRef Id="1059979416"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4032683079" Name="StopEvent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="725405906" Name="TheEvent" MaxAttenuation="60" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2552959309" Id="4141131000"/>
+							<MediaRefs>
+								<MediaRef Id="545849187"/>
+								<MediaRef Id="557474274"/>
+								<MediaRef Id="774783210"/>
+								<MediaRef Id="855593718"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="2653529179"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2552959309" Id="4141131003" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="198825798"/>
+								<MediaRef Id="264123750"/>
+								<MediaRef Id="498843460"/>
+								<MediaRef Id="728011880"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="2653529179"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="247465997" Name="EventVolume"/>
+				<GameParameter Id="719730011" Name="MouseVelocity"/>
+				<GameParameter Id="2825251599" Name="DroneVolume"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1718617278" Name="Steps">
+					<Switches>
+						<Switch Id="1182830809" Name="Clock"/>
+						<Switch Id="2181839183" Name="Kick"/>
+						<Switch Id="3652274034" Name="Metallic"/>
+						<Switch Id="3725073853" Name="Cement"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2552959309" Name="LineEvent">
+					<Switches>
+						<Switch Id="4141131000" Name="Option2"/>
+						<Switch Id="4141131003" Name="Option1"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7386638C-6042-88D2-AE1B-896C3AD3C082}</FileHash>
+</SoundBanksInfo>

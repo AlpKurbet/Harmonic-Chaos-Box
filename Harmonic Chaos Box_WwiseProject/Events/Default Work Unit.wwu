@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{97791A08-694D-4BF2-8B6C-3A2592F01F66}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PianoDrone" ID="{6742B967-4BEB-411E-9EB4-7076EF45C64F}">
+					<ChildrenList>
+						<Action Name="" ID="{4396299C-7BBD-46FB-A30E-15FF728A08F3}" ShortID="168699211">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PianoDrone" ID="{05F81F20-5939-466B-9882-67671EDC68B6}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Step" ID="{70438BA6-B47B-4D86-AB5F-CE003A1F4AEF}">
+					<ChildrenList>
+						<Action Name="" ID="{ABE11A4D-2F07-4B1A-AC92-58D4ECBFC04A}" ShortID="897561368">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Steps" ID="{8484843C-7355-4AB2-9391-47DB18DD9A85}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TheEvent" ID="{666EDDD6-3229-4E62-BD5A-8347C7FEBAC0}">
+					<ChildrenList>
+						<Action Name="" ID="{039A27D0-5405-47A9-9D3F-A800EA52CB0D}" ShortID="738305218">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LineEvent" ID="{9EE378E1-E37D-4244-A984-4008FEB0DB4C}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopEvent" ID="{267D2AE7-AFFD-47AF-9BE1-EC6A0E5376F1}">
+					<ChildrenList>
+						<Action Name="" ID="{504E840B-9566-4706-8784-400A172EEE8B}" ShortID="256801520">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LineEvent" ID="{9EE378E1-E37D-4244-A984-4008FEB0DB4C}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ResumeEvent" ID="{390840D2-0E8E-472C-B792-ECAE4B52F2E2}">
+					<ChildrenList>
+						<Action Name="" ID="{1B32ACAD-CAA5-487F-ADED-8DC9B0F69C33}" ShortID="854872705">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LineEvent" ID="{9EE378E1-E37D-4244-A984-4008FEB0DB4C}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MidC" ID="{68D2FDC8-C346-4A92-BC59-6CE8FABE3B72}">
+					<ChildrenList>
+						<Action Name="" ID="{3402EB08-1ECD-4F69-8FEB-047ABA3B87C4}" ShortID="30157068">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TheMidC" ID="{BBCAFB04-7C60-4683-9473-045B40386365}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LowC" ID="{232B0D46-7A90-4D43-949A-166F0256191A}">
+					<ChildrenList>
+						<Action Name="" ID="{52B5FA90-BAB3-4DC4-8CEA-ABC0D7BD178A}" ShortID="906063307">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TheLowC" ID="{2F1A8953-ED84-4133-90F6-2A25D580F2C4}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MidG" ID="{337EE8F2-8B30-47FF-8863-0FECBBE9A6DA}">
+					<ChildrenList>
+						<Action Name="" ID="{2F5C9F8D-0D7E-431E-A354-F9B3DCA7F302}" ShortID="977079268">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TheMidG" ID="{D885D1A9-50DF-41E4-B8A3-C8297AD1BC45}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MidE" ID="{347BB7CA-49B5-47ED-95C5-3823EBF076AF}">
+					<ChildrenList>
+						<Action Name="" ID="{13DFCEE0-CC92-4CE1-8F87-40970132E6CF}" ShortID="125620838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TheMidE" ID="{F96A4D47-6A88-448C-A903-0F70AA956640}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMouse" ID="{4C764FA0-8412-463D-9367-6AFE10059089}">
+					<ChildrenList>
+						<Action Name="" ID="{11F973B8-7CB9-46FD-9389-B64C817573D6}" ShortID="736010737">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MouseSound" ID="{1DF9C3CB-1B6E-457F-A7E4-5B36B26618E2}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EBBD7450-B7E7-416C-B1FD-FD266D442457}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{EBBD7450-B7E7-416C-B1FD-FD266D442457}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Steps" ID="{E48541F0-5219-4D9B-B151-07F634227311}">
+					<ChildrenList>
+						<Switch Name="Cement" ID="{555BEBD3-7D43-4594-B49D-1C9071715767}"/>
+						<Switch Name="Clock" ID="{887F0859-E573-45A2-80F8-2B98F4C7EDB6}"/>
+						<Switch Name="Metallic" ID="{BBAD781E-4D4F-4BE6-8E8B-25F8DF8DE0F1}"/>
+						<Switch Name="Kick" ID="{789511F9-3A20-4DFD-922A-60D2391D9755}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="LineEvent" ID="{8BBAB289-6A4D-4C4C-97FF-DA9F1401754A}">
+					<ChildrenList>
+						<Switch Name="Option1" ID="{4147D2FC-BE78-4726-A660-75ED30DFE045}"/>
+						<Switch Name="Option2" ID="{B471A60C-06E5-4A45-B537-A0209A1D3CA5}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
