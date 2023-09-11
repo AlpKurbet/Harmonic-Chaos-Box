@@ -119,6 +119,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayViolins" ID="{526C8758-211F-4593-A16A-8FF08A419394}">
+					<ChildrenList>
+						<Action Name="" ID="{5D7637AD-C520-4B8E-9990-5250EBC6C687}" ShortID="1061466899">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Violins-Pizzocato" ID="{7BCDDA2F-8B9E-475D-BF0D-F12819CC1FC5}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayCellos" ID="{5BBEE234-CA3F-4924-BD2D-E3A7438AD27C}">
+					<ChildrenList>
+						<Action Name="" ID="{CA9998E6-4724-4160-8743-33D62B13D7F1}" ShortID="26082589">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cello-Legato" ID="{C567458A-1A8D-4F35-A2F7-206543AD1B50}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayRhythm" ID="{7C2585D2-76C0-496E-8448-9B902EC22617}">
+					<ChildrenList>
+						<Action Name="" ID="{09916499-C9BD-41BB-83B1-FA27091C35BD}" ShortID="866558024">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="drums" ID="{21348638-7F8C-420C-82F8-A78CA45207C8}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayCaval" ID="{ACABB799-8818-4B2D-9753-A7290ADB6A61}">
+					<ChildrenList>
+						<Action Name="" ID="{47B35E4C-0C05-4E9D-8030-94E68F05D22C}" ShortID="612012072">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cavals" ID="{B18949F8-8318-4120-9C22-07BF1349FE30}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayTuba" ID="{04B2460C-D007-4853-8F47-5881478DF048}">
+					<ChildrenList>
+						<Action Name="" ID="{EFFECD07-41AA-4109-AAD9-58D896619951}" ShortID="55772294">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TubaSolo" ID="{1DBFFD89-1FEE-4CE6-9CDC-39F23A27D503}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

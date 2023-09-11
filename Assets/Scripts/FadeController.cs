@@ -33,7 +33,7 @@ public class FadeController : MonoBehaviour
             AkSoundEngine.SetRTPCValue("EventVolume", currentVolume * 100f); 
 
             // Decrease the current volume by the fade step
-            currentVolume -= fadeSpeed * Time.deltaTime;
+            currentVolume -= theFadeSpeed * Time.deltaTime;
 
             // Wait for the next frame
             yield return null;

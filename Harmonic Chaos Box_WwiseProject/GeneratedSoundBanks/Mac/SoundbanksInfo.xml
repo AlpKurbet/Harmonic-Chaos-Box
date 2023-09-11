@@ -9,11 +9,12 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CCCBF513-EDAE-B41E-C359-D7213E7CFC90}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{621D2B51-04BB-FD5C-957F-35E99545421C}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="602546716" Name="Room_Large" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="1431209347" Name="One_Tap_One_Second" LibName="Wwise Delay" LibId="6946819"/>
 					<Plugin Id="2805769450" Name="Special_Effect_1" LibName="Wwise Flanger" LibId="8192003"/>
 					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
@@ -25,6 +26,14 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="544619663" Name="LineSounds">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2303611425" Name="DroneBus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<AuxBusses>
@@ -73,13 +82,33 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2645124865" Type="User" Language="SFX" Hash="{5170D5BE-80E5-DB7E-F94D-42CE1532E0F3}">
+		<SoundBank Id="2645124865" Type="User" Language="SFX" Hash="{66CF347D-3030-61F0-B0E9-D16B30ACB304}">
 			<ShortName>TheMain</ShortName>
 			<Path>TheMain.bnk</Path>
 			<Media>
+				<File Id="1139395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-13.wav</ShortName>
+					<CachePath>SFX/Tuba-13_FA34A4B2.wem</CachePath>
+				</File>
 				<File Id="9848742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>clockTick1_1.wav</ShortName>
 					<CachePath>SFX/clockTick1_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="31764007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin4.wav</ShortName>
+					<CachePath>SFX/violin4_8AEA8533.wem</CachePath>
+				</File>
+				<File Id="33634356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-5.wav</ShortName>
+					<CachePath>SFX/Tuba-5_29F68D81.wem</CachePath>
+				</File>
+				<File Id="37823833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-C3.wav</ShortName>
+					<CachePath>SFX/violin-High-C3_81BF8D63.wem</CachePath>
+				</File>
+				<File Id="50197483" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin2.wav</ShortName>
+					<CachePath>SFX/violin2_891D387E.wem</CachePath>
 				</File>
 				<File Id="57810615" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetallicStep3_1.wav</ShortName>
@@ -101,6 +130,10 @@
 					<ShortName>Cement_9.wav</ShortName>
 					<CachePath>SFX/Cement_9_10C4C929.wem</CachePath>
 				</File>
+				<File Id="119058988" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-F.wav</ShortName>
+					<CachePath>SFX/violin-F_05A8AEDE.wem</CachePath>
+				</File>
 				<File Id="147127924" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cement_3.wav</ShortName>
 					<CachePath>SFX/Cement_3_10C4C929.wem</CachePath>
@@ -109,21 +142,45 @@
 					<ShortName>Piano4_1.wav</ShortName>
 					<CachePath>SFX/Piano4_1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="153731566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-E2.wav</ShortName>
+					<CachePath>SFX/violin-E2_C52B3505.wem</CachePath>
+				</File>
 				<File Id="154083153" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MidG.wav</ShortName>
 					<CachePath>SFX/MidG_37590C3A.wem</CachePath>
+				</File>
+				<File Id="155035390" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-11.wav</ShortName>
+					<CachePath>SFX/Tuba-11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="158070986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-E2.wav</ShortName>
+					<CachePath>SFX/violin-High-E2_BC5C566A.wem</CachePath>
 				</File>
 				<File Id="190227368" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WheelAndPiano3_1.wav</ShortName>
 					<CachePath>SFX/WheelAndPiano3_1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="191845548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-6.wav</ShortName>
+					<CachePath>SFX/Tuba-6_FD74B7D6.wem</CachePath>
+				</File>
 				<File Id="198825798" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CalmerChords3.wav</ShortName>
-					<CachePath>SFX/CalmerChords3_6CA8C969.wem</CachePath>
+					<CachePath>SFX/CalmerChords3_71533211.wem</CachePath>
+				</File>
+				<File Id="199027346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-D2.wav</ShortName>
+					<CachePath>SFX/violin-High-D2_5C428953.wem</CachePath>
 				</File>
 				<File Id="201120453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cement_11.wav</ShortName>
 					<CachePath>SFX/Cement_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="208068412" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-2.wav</ShortName>
+					<CachePath>SFX/Tuba-2_10C4C929.wem</CachePath>
 				</File>
 				<File Id="211649292" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetallicStep4_1.wav</ShortName>
@@ -135,19 +192,27 @@
 				</File>
 				<File Id="264123750" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CalmerChords4.wav</ShortName>
-					<CachePath>SFX/CalmerChords4_4BBD3802.wem</CachePath>
+					<CachePath>SFX/CalmerChords4_B1093188.wem</CachePath>
 				</File>
 				<File Id="270752016" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Kick2.wav</ShortName>
 					<CachePath>SFX/Kick2_65F944FD.wem</CachePath>
 				</File>
+				<File Id="290312505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-4.wav</ShortName>
+					<CachePath>SFX/Tuba-4_8B349A27.wem</CachePath>
+				</File>
 				<File Id="299316055" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>clockTick3_1.wav</ShortName>
 					<CachePath>SFX/clockTick3_1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="306034118" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-E3.wav</ShortName>
+					<CachePath>SFX/violin-E3_B872E8E6.wem</CachePath>
+				</File>
 				<File Id="318495006" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mouse4.wav</ShortName>
-					<CachePath>SFX/Mouse4_9B554560.wem</CachePath>
+					<CachePath>SFX/Mouse4_9AC15FAE.wem</CachePath>
 				</File>
 				<File Id="318498963" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cement_4.wav</ShortName>
@@ -157,9 +222,21 @@
 					<ShortName>Piano1_1.wav</ShortName>
 					<CachePath>SFX/Piano1_1_D94BCD24.wem</CachePath>
 				</File>
+				<File Id="328740232" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-D.wav</ShortName>
+					<CachePath>SFX/violin-High-D_83F0E8D5.wem</CachePath>
+				</File>
 				<File Id="335049912" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MidE.wav</ShortName>
 					<CachePath>SFX/MidE_D9F9D51E.wem</CachePath>
+				</File>
+				<File Id="345165860" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-7.wav</ShortName>
+					<CachePath>SFX/Tuba-7_10C4C929.wem</CachePath>
+				</File>
+				<File Id="351399411" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-B.wav</ShortName>
+					<CachePath>SFX/violin-B_DBCA2702.wem</CachePath>
 				</File>
 				<File Id="380959729" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cement_8.wav</ShortName>
@@ -169,13 +246,37 @@
 					<ShortName>MetallicStep2_1.wav</ShortName>
 					<CachePath>SFX/MetallicStep2_1_1CBF006D.wem</CachePath>
 				</File>
+				<File Id="428497779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-E.wav</ShortName>
+					<CachePath>SFX/violin-High-E_1CA7BBA8.wem</CachePath>
+				</File>
+				<File Id="437498282" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-C2.wav</ShortName>
+					<CachePath>SFX/violin-High-C2_EFA8E9D6.wem</CachePath>
+				</File>
+				<File Id="442729391" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-14.wav</ShortName>
+					<CachePath>SFX/Tuba-14_A4FF53C9.wem</CachePath>
+				</File>
 				<File Id="498843460" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CalmerChords.wav</ShortName>
-					<CachePath>SFX/CalmerChords_9CE6675F.wem</CachePath>
+					<CachePath>SFX/CalmerChords_D14B9A72.wem</CachePath>
+				</File>
+				<File Id="505470351" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-9.wav</ShortName>
+					<CachePath>SFX/Tuba-9_10C4C929.wem</CachePath>
+				</File>
+				<File Id="507884469" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-A.wav</ShortName>
+					<CachePath>SFX/violin-High-A_5924BF13.wem</CachePath>
 				</File>
 				<File Id="509975710" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mouse2.wav</ShortName>
-					<CachePath>SFX/Mouse2_AC089DD8.wem</CachePath>
+					<CachePath>SFX/Mouse2_4CFD8A1E.wem</CachePath>
+				</File>
+				<File Id="530620251" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-A2.wav</ShortName>
+					<CachePath>SFX/violin-High-A2_EDED5E4F.wem</CachePath>
 				</File>
 				<File Id="545849187" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chords4.wav</ShortName>
@@ -185,6 +286,10 @@
 					<ShortName>Chords.wav</ShortName>
 					<CachePath>SFX/Chords_2737D5A0.wem</CachePath>
 				</File>
+				<File Id="598337302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>drum1.wav</ShortName>
+					<CachePath>SFX/drum1_10C4C929.wem</CachePath>
+				</File>
 				<File Id="623470134" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>clockTick4_1.wav</ShortName>
 					<CachePath>SFX/clockTick4_1_10C4C929.wem</CachePath>
@@ -192,6 +297,10 @@
 				<File Id="634272668" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Piano3_1.wav</ShortName>
 					<CachePath>SFX/Piano3_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="638195765" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-1.wav</ShortName>
+					<CachePath>SFX/Tuba-1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="640288818" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetallicStep5_1.wav</ShortName>
@@ -205,9 +314,13 @@
 					<ShortName>MidC.wav</ShortName>
 					<CachePath>SFX/MidC_B64AA906.wem</CachePath>
 				</File>
+				<File Id="719963775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-Asharp2.wav</ShortName>
+					<CachePath>SFX/violin-High-Asharp2_78B9CAF6.wem</CachePath>
+				</File>
 				<File Id="728011880" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CalmerChords2.wav</ShortName>
-					<CachePath>SFX/CalmerChords2_76FE8D05.wem</CachePath>
+					<CachePath>SFX/CalmerChords2_AEB9904E.wem</CachePath>
 				</File>
 				<File Id="730315504" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WheelAndPiano4_1.wav</ShortName>
@@ -217,17 +330,41 @@
 					<ShortName>Kick.wav</ShortName>
 					<CachePath>SFX/Kick_5386EBF6.wem</CachePath>
 				</File>
+				<File Id="753600957" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-3.wav</ShortName>
+					<CachePath>SFX/Tuba-3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="758356139" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-D.wav</ShortName>
+					<CachePath>SFX/violin-D_2C113421.wem</CachePath>
+				</File>
 				<File Id="766655302" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cement_5.wav</ShortName>
 					<CachePath>SFX/Cement_5_10C4C929.wem</CachePath>
+				</File>
+				<File Id="770948612" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cello-E.wav</ShortName>
+					<CachePath>SFX/cello-E_10C4C929.wem</CachePath>
 				</File>
 				<File Id="774783210" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chords2.wav</ShortName>
 					<CachePath>SFX/Chords2_82373EFC.wem</CachePath>
 				</File>
+				<File Id="778087833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-F.wav</ShortName>
+					<CachePath>SFX/violin-High-F_3EBD2A8F.wem</CachePath>
+				</File>
 				<File Id="806063054" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WheelAndPiano2_1.wav</ShortName>
 					<CachePath>SFX/WheelAndPiano2_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="836061488" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-F2.wav</ShortName>
+					<CachePath>SFX/violin-High-F2_B714A19C.wem</CachePath>
+				</File>
+				<File Id="846864520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin1.wav</ShortName>
+					<CachePath>SFX/violin1_59009FE6.wem</CachePath>
 				</File>
 				<File Id="855593718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chords3.wav</ShortName>
@@ -249,13 +386,33 @@
 					<ShortName>Cement_10.wav</ShortName>
 					<CachePath>SFX/Cement_10_10C4C929.wem</CachePath>
 				</File>
+				<File Id="923517229" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-10.wav</ShortName>
+					<CachePath>SFX/Tuba-10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="929748562" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-8.wav</ShortName>
+					<CachePath>SFX/Tuba-8_1A60C686.wem</CachePath>
+				</File>
+				<File Id="935988607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin3.wav</ShortName>
+					<CachePath>SFX/violin3_D662E874.wem</CachePath>
+				</File>
+				<File Id="947554361" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-C.wav</ShortName>
+					<CachePath>SFX/violin-High-C_1CB3BC5F.wem</CachePath>
+				</File>
 				<File Id="967545562" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Kick3.wav</ShortName>
 					<CachePath>SFX/Kick3_0BBE7D25.wem</CachePath>
 				</File>
+				<File Id="979487927" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tuba-12.wav</ShortName>
+					<CachePath>SFX/Tuba-12_D06BA73D.wem</CachePath>
+				</File>
 				<File Id="991384001" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mouse1.wav</ShortName>
-					<CachePath>SFX/Mouse1_DE46509F.wem</CachePath>
+					<CachePath>SFX/Mouse1_84013E7D.wem</CachePath>
 				</File>
 				<File Id="996138448" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cement_12.wav</ShortName>
@@ -269,13 +426,29 @@
 					<ShortName>Piano2_1.wav</ShortName>
 					<CachePath>SFX/Piano2_1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1037027839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-Asharp3.wav</ShortName>
+					<CachePath>SFX/violin-High-Asharp3_337403D7.wem</CachePath>
+				</File>
+				<File Id="1040849304" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-C2.wav</ShortName>
+					<CachePath>SFX/violin-C2_1297312C.wem</CachePath>
+				</File>
 				<File Id="1059979416" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Kick4.wav</ShortName>
 					<CachePath>SFX/Kick4_2C02837B.wem</CachePath>
 				</File>
+				<File Id="1061953180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cello-C.wav</ShortName>
+					<CachePath>SFX/cello-C_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1067332995" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin-High-Asharp.wav</ShortName>
+					<CachePath>SFX/violin-High-Asharp_D754DF5F.wem</CachePath>
+				</File>
 				<File Id="1068428341" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Mouse3.wav</ShortName>
-					<CachePath>SFX/Mouse3_F88B5ADF.wem</CachePath>
+					<CachePath>SFX/Mouse3_60F5ABB1.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -326,6 +499,13 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
+				<Event Id="2655865664" Name="PlayCaval" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="844551461" Name="PlayCellos" MaxAttenuation="37" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="770948612"/>
+						<MediaRef Id="1061953180"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2099766676" Name="PlayMouse" MaxAttenuation="65" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="318495006"/>
@@ -338,6 +518,57 @@
 							<PluginRef Id="48620415"/>
 						</ShareSets>
 					</PluginRefs>
+				</Event>
+				<Event Id="3082935427" Name="PlayRhythm" DurationType="OneShot" DurationMin="2.1818368" DurationMax="2.1818368">
+					<MediaRefs>
+						<MediaRef Id="598337302"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4103632697" Name="PlayTuba" MaxAttenuation="37" DurationType="OneShot" DurationMin="2" DurationMax="8">
+					<MediaRefs>
+						<MediaRef Id="1139395"/>
+						<MediaRef Id="33634356"/>
+						<MediaRef Id="155035390"/>
+						<MediaRef Id="191845548"/>
+						<MediaRef Id="208068412"/>
+						<MediaRef Id="290312505"/>
+						<MediaRef Id="345165860"/>
+						<MediaRef Id="442729391"/>
+						<MediaRef Id="505470351"/>
+						<MediaRef Id="638195765"/>
+						<MediaRef Id="753600957"/>
+						<MediaRef Id="923517229"/>
+						<MediaRef Id="929748562"/>
+						<MediaRef Id="979487927"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2526812987" Name="PlayViolins" MaxAttenuation="37" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="31764007"/>
+						<MediaRef Id="37823833"/>
+						<MediaRef Id="50197483"/>
+						<MediaRef Id="119058988"/>
+						<MediaRef Id="153731566"/>
+						<MediaRef Id="158070986"/>
+						<MediaRef Id="199027346"/>
+						<MediaRef Id="306034118"/>
+						<MediaRef Id="328740232"/>
+						<MediaRef Id="351399411"/>
+						<MediaRef Id="428497779"/>
+						<MediaRef Id="437498282"/>
+						<MediaRef Id="507884469"/>
+						<MediaRef Id="530620251"/>
+						<MediaRef Id="719963775"/>
+						<MediaRef Id="758356139"/>
+						<MediaRef Id="778087833"/>
+						<MediaRef Id="836061488"/>
+						<MediaRef Id="846864520"/>
+						<MediaRef Id="935988607"/>
+						<MediaRef Id="947554361"/>
+						<MediaRef Id="1037027839"/>
+						<MediaRef Id="1040849304"/>
+						<MediaRef Id="1067332995"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3775847764" Name="ResumeEvent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="621108255" Name="Step" DurationType="OneShot" DurationMin="0.19061224" DurationMax="1.090907">
@@ -406,7 +637,7 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="4032683079" Name="StopEvent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="725405906" Name="TheEvent" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="725405906" Name="TheEvent" MaxAttenuation="37" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2552959309" Id="4141131000"/>
@@ -462,5 +693,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{31DF66D0-A250-2208-82FD-01342A05986D}</FileHash>
+	<FileHash>{B9FE0229-CCC3-D72E-7129-A49DD04C063A}</FileHash>
 </SoundBanksInfo>

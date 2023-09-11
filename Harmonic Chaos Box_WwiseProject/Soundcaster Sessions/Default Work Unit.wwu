@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AA06D4DB-0EA8-40E6-A3A1-63A5D3CEF387}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{AA06D4DB-0EA8-40E6-A3A1-63A5D3CEF387}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AA06D4DB-0EA8-40E6-A3A1-63A5D3CEF387}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{4FD32348-DDF4-41F4-907C-521882FDE4C4}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Cello-Legato" ID="{C567458A-1A8D-4F35-A2F7-206543AD1B50}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TubaSolo" ID="{1DBFFD89-1FEE-4CE6-9CDC-39F23A27D503}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Violins-Pizzocato" ID="{7BCDDA2F-8B9E-475D-BF0D-F12819CC1FC5}" WorkUnitID="{646BCABD-66B3-42C0-A3D5-8E2768C7BE98}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

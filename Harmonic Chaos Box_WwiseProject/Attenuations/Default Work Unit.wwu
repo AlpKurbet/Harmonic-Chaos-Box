@@ -163,7 +163,7 @@
 				</Attenuation>
 				<Attenuation Name="TheLine" ID="{3E1B9D58-639A-4C2E-B262-5648E3D43F81}" ShortID="1022759677">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="60"/>
+						<Property Name="RadiusMax" Type="Real64" Value="37"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -180,14 +180,14 @@
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>27.3622457142857</XPos>
+											<XPos>16.8733848571429</XPos>
 											<YPos>-4.81815</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>60</XPos>
-											<YPos>-29.09287</YPos>
+											<XPos>37</XPos>
+											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -219,7 +219,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>60</XPos>
+											<XPos>37</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>

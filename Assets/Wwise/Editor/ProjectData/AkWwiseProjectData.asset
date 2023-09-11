@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 92d536749173f044921b62fdd34d66da
     GuidInternal: 
-    m_lastTime: -8585075273268275142
+    m_lastTime: -8585071586055684852
     List:
     - name: Delay
       guid: 8ebbe048382be346a03b22ef0e30368e
@@ -57,6 +57,40 @@ MonoBehaviour:
         ObjectType: 1
         guid: 8ebbe048382be346a03b22ef0e30368e
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Delay
+    - name: DroneBus
+      guid: 905e1ca42abae4489ed11a0e98455cd7
+      id: 2303611425
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 92d536749173f044921b62fdd34d66da
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: DroneBus
+        ObjectType: 2
+        guid: 905e1ca42abae4489ed11a0e98455cd7
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/DroneBus
+    - name: LineSounds
+      guid: 1a53461b256a40409ea67171c44d5a06
+      id: 544619663
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 92d536749173f044921b62fdd34d66da
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: LineSounds
+        ObjectType: 2
+        guid: 1a53461b256a40409ea67171c44d5a06
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/LineSounds
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -117,7 +151,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 7819b1775eb9b04e9dc45236c0c94d76
     GuidInternal: 
-    m_lastTime: -8585075188796290642
+    m_lastTime: -8585071700160451632
     List:
     - name: TheMain
       guid: bc3839255719a445a202f1f7cfb89bfc
@@ -145,7 +179,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 081a79974d69f24b8b6c3a2592f01f66
     GuidInternal: 
-    m_lastTime: -8585075189919356503
+    m_lastTime: -8585071594360798151
     List:
     - name: LowC
       guid: 460d2b23907a434d949a166f0256191a
@@ -232,6 +266,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: PlayCaval
+      guid: 99b7abac18882d4b9753a7290adb6a61
+      id: 2655865664
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 081a79974d69f24b8b6c3a2592f01f66
+      - ElementName: PlayCaval
+        ObjectType: 3
+        guid: 99b7abac18882d4b9753a7290adb6a61
+      Path: Events/Default Work Unit/PlayCaval
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayCellos
+      guid: 34e2be5b3fca2449bd2de3a7438ad27c
+      id: 844551461
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 081a79974d69f24b8b6c3a2592f01f66
+      - ElementName: PlayCellos
+        ObjectType: 3
+        guid: 34e2be5b3fca2449bd2de3a7438ad27c
+      Path: Events/Default Work Unit/PlayCellos
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayMouse
       guid: a04f764c12843d4693676afe10059089
       id: 2099766676
@@ -246,6 +314,57 @@ MonoBehaviour:
         ObjectType: 3
         guid: a04f764c12843d4693676afe10059089
       Path: Events/Default Work Unit/PlayMouse
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayRhythm
+      guid: d285257cc0766e4984489b902ec22617
+      id: 3082935427
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 081a79974d69f24b8b6c3a2592f01f66
+      - ElementName: PlayRhythm
+        ObjectType: 3
+        guid: d285257cc0766e4984489b902ec22617
+      Path: Events/Default Work Unit/PlayRhythm
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayTuba
+      guid: 0c46b20407d053488f475881478df048
+      id: 4103632697
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 081a79974d69f24b8b6c3a2592f01f66
+      - ElementName: PlayTuba
+        ObjectType: 3
+        guid: 0c46b20407d053488f475881478df048
+      Path: Events/Default Work Unit/PlayTuba
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayViolins
+      guid: 58876c521f219345a16a8ff08a419394
+      id: 2526812987
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 081a79974d69f24b8b6c3a2592f01f66
+      - ElementName: PlayViolins
+        ObjectType: 3
+        guid: 58876c521f219345a16a8ff08a419394
+      Path: Events/Default Work Unit/PlayViolins
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -548,7 +667,7 @@ MonoBehaviour:
     m_lastTime: -8585077786785182511
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000b0000000d0000000e0000000f0000001200000013000000140000001500000017000000180000001f000000200000002a0000002b0000002c0000002f00000030000000
+  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000b0000000d0000000e0000000f0000001200000013000000140000001500000017000000180000001f0000002000000025000000260000002a0000002b0000002c0000002e0000002f000000300000003300000034000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

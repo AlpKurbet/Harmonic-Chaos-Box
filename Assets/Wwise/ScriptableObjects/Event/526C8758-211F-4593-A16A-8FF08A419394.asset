@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c2c432e097d44109d658162d3b6d6f, type: 3}
+  m_Name: 526C8758-211F-4593-A16A-8FF08A419394
+  m_EditorClassIdentifier: 
+  objectName: PlayViolins
+  id: 2526812987
+  guid: 526C8758-211F-4593-A16A-8FF08A419394
