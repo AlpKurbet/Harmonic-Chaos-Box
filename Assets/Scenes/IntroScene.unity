@@ -545,7 +545,7 @@ RectTransform:
   m_GameObject: {fileID: 441209990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.71102583, y: 0.5936811, z: 0.5936811}
+  m_LocalScale: {x: 0.6197642, y: 0.5174809, z: 0.5174809}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1672882687}
@@ -553,7 +553,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -243, y: 452}
+  m_AnchoredPosition: {x: -211, y: 382}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &441209992
@@ -591,30 +591,29 @@ MonoBehaviour:
 
 
     Draw a line
-    in 3D Space by  pressing the left mouse button and draging the mouse. The speed
-    of your drag will determine the quality of your next line''s sound.
+    in 3D Space by  pressing the left mouse button and draging the mouse. The sound
+    of the line will go through the line you drew. The speed of your drag will determine
+    the velocity of the sound through the line.
 
 
-    The
-    dragging speed of the mouse and the position of the line changes the sound the
-    line produces and adds different sounds to it. In other wordsi harmonize it further.
+    Drawing longer lines will cause
+    longer playbacks of their sounds.
 
 
-    You
-    can change your footstep sounds with "Q"
+    You can change your footstep sounds with
+    "Q"
 
 
-    There are 2 types of drones in
-    the box. You can switch between them by pressing "X"
+    There are 2 types of drones in the box. You can switch between them
+    by pressing "X"
 
 
-    While the "Rumble"
-    drone is active, you can make it visible or in visible by pressing "Z"
+    While the "Rumble" drone is active, you can make it visible
+    or in visible by pressing "Z"
 
 
-    There
-    are multiple zones that add different effects to your footsteps and your lines.
-    Explore!
+    There are multiple zones that add different
+    effects to your footsteps and your lines. Explore!
 
 
     And have fun!'
@@ -1133,7 +1132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6fd07365f78d41df91bcd507171d65e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  theRotationSpeed: 30
 --- !u!1 &958468193
 GameObject:
   m_ObjectHideFlags: 0

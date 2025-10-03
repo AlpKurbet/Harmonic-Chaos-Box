@@ -1,4 +1,6 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	544619663	LineSounds			\Default Work Unit\Master Audio Bus\LineSounds	
+	2303611425	DroneBus			\Default Work Unit\Master Audio Bus\DroneBus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
@@ -7,6 +9,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3322072377	Trem			\Default Work Unit\Master Audio Bus\Trem	
 
 Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
 	1431209347	One_Tap_One_Second	Wwise Delay			
 	2805769450	Special_Effect_1	Wwise Flanger			
 	3164629247	Holy	Wwise RoomVerb			

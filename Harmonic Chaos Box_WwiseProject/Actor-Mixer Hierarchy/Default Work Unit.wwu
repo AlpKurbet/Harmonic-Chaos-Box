@@ -1820,7 +1820,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+							<ObjectRef Name="DroneBus" ID="{A41C5E90-BA2A-48E4-9ED1-1A0E98455CD7}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1912,7 +1912,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+							<ObjectRef Name="DroneBus" ID="{A41C5E90-BA2A-48E4-9ED1-1A0E98455CD7}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2001,7 +2001,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+							<ObjectRef Name="DroneBus" ID="{A41C5E90-BA2A-48E4-9ED1-1A0E98455CD7}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2090,7 +2090,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+							<ObjectRef Name="DroneBus" ID="{A41C5E90-BA2A-48E4-9ED1-1A0E98455CD7}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2295,6 +2295,1151 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Mouse4" ID="{AB8D53F3-4E7A-4C0B-906B-099C2DAC7C93}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Violins-Pizzocato" ID="{7BCDDA2F-8B9E-475D-BF0D-F12819CC1FC5}" ShortID="748922452">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="TheLine" ID="{3E1B9D58-639A-4C2E-B262-5648E3D43F81}" WorkUnitID="{04691447-D2D6-40AA-AB26-DF361A459E3D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="LineSounds" ID="{1B46531A-6A25-4040-9EA6-7171C44D5A06}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="violin-C" ID="{76CE2FB5-5FD9-4118-8738-4F8F14A1BAE0}" ShortID="793918743">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin1" ID="{FB3D090E-B3E8-4A82-B78A-E9BA62C5FEE5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0300387596899225"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0687984496124031"/>
+										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="846864520"/>
+									</MediaIDList>
+									<PluginInnerObjectList>
+										<List Name="Markers">
+											<PluginInnerObject Name="" ID="{40ADE3F4-973A-44FD-898B-33121C4DFBDF}" PluginName="Marker" CompanyID="0" PluginID="993">
+												<PropertyList>
+													<Property Name="Label" Type="string" Value="Tempo: 120.0"/>
+												</PropertyList>
+											</PluginInnerObject>
+										</List>
+									</PluginInnerObjectList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin1" ID="{FB3D090E-B3E8-4A82-B78A-E9BA62C5FEE5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-E" ID="{87D4B6D3-6A77-4D3C-822A-C7BFC1617C4F}" ShortID="547554615">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin2" ID="{C5A7A8AA-E09F-4C05-98C1-44D3DB84BD21}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0203488372093023"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0484496124031008"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="50197483"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin2" ID="{C5A7A8AA-E09F-4C05-98C1-44D3DB84BD21}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-Asharp" ID="{D3B4A244-9F2F-4307-9EA6-92876FA3A04F}" ShortID="997242266">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin3" ID="{6A10BA7B-B8D1-488E-BA4F-7C0E9EBC70A5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0474806201550388"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.127906976744186"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="935988607"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin3" ID="{6A10BA7B-B8D1-488E-BA4F-7C0E9EBC70A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-A" ID="{50DBAB86-7743-462B-AEB1-9860CC7577A5}" ShortID="679291161">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin4" ID="{CACA9F5C-63CD-4CBA-B8D9-F1613E05BDBF}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0271317829457364"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0290697674418605"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="31764007"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin4" ID="{CACA9F5C-63CD-4CBA-B8D9-F1613E05BDBF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-B" ID="{1BDA8047-5D8D-4D90-A5C2-BADE952BDAD7}" ShortID="120845936">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-B" ID="{16C47FEA-E8C5-4D00-A6BF-1DC565965525}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0164728682170543"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0319767441860465"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-B.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="351399411"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-B" ID="{16C47FEA-E8C5-4D00-A6BF-1DC565965525}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-C2" ID="{BD8A71D4-0741-47D2-97B8-D1740B5AC525}" ShortID="1055248647">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-C2" ID="{5448263C-B6DF-4636-9234-F279E0D4764C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0222868217054264"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0687984496124031"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-C2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1040849304"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-C2" ID="{5448263C-B6DF-4636-9234-F279E0D4764C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-D" ID="{82D94B13-47D1-4ED5-884F-AB33ABB38C0F}" ShortID="687066578">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-D" ID="{DCFA0A17-76C0-40FE-A04E-6E74B5EDBC39}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0377906976744186"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0348837209302326"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-D.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="758356139"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-D" ID="{DCFA0A17-76C0-40FE-A04E-6E74B5EDBC39}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-E2" ID="{A8934571-6C8C-42B5-8E83-249C3964293C}" ShortID="370620687">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-E2" ID="{3157ED71-DF89-4A0B-904B-DA4CC2BFEA8E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0290697674418605"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0329457364341085"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-E2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="153731566"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-E2" ID="{3157ED71-DF89-4A0B-904B-DA4CC2BFEA8E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-E3" ID="{C25125B3-6FD1-4905-B447-2C73C0BB96DA}" ShortID="526100540">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-E3" ID="{46133489-9186-454C-B5CD-0AEE3435C5D4}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0261627906976744"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0542635658914729"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-E3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="306034118"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-E3" ID="{46133489-9186-454C-B5CD-0AEE3435C5D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-F" ID="{8ACBE82D-51E8-40FD-813B-676D911AD2EA}" ShortID="71292036">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-F" ID="{259B2152-7E38-42E0-965C-EECC9BCE654C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0222868217054264"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0542635658914729"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-F.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="119058988"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-F" ID="{259B2152-7E38-42E0-965C-EECC9BCE654C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-A2" ID="{9AEDD096-0A98-4E9A-930D-FF4B3D4AF2FF}" ShortID="597317994">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-A2" ID="{99519794-D7E6-45CD-9ED4-BD1C3E0E67D1}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0290697674418605"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0843023255813954"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-A2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="530620251"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-A2" ID="{99519794-D7E6-45CD-9ED4-BD1C3E0E67D1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-A" ID="{54A3A14F-1549-4E43-9A5E-62064464EDD3}" ShortID="923481872">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-A" ID="{771A9E11-81F7-4E57-A6E0-09F23E62561D}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0232558139534884"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0532945736434108"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-A.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="507884469"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-A" ID="{771A9E11-81F7-4E57-A6E0-09F23E62561D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-Asharp2" ID="{56D98438-E6C9-49E3-A057-60081EE9C656}" ShortID="88531523">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-Asharp2" ID="{68D13799-6E04-4E83-ABA1-129C073904E3}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0145348837209302"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0426356589147287"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-Asharp2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="719963775"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-Asharp2" ID="{68D13799-6E04-4E83-ABA1-129C073904E3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-C2" ID="{18714DCC-0D30-4B6B-8152-5DD568751CF7}" ShortID="20820446">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-C2" ID="{04E28F04-0974-4F62-9C35-EF040F9F7676}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0155038759689922"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0310077519379845"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-C2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="437498282"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-C2" ID="{04E28F04-0974-4F62-9C35-EF040F9F7676}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-C3" ID="{86B2EADB-7D8E-47DA-A705-895491A894A1}" ShortID="972859701">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-C3" ID="{B75C80E4-6AD8-49EC-9542-B55C5FFC8BE4}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0145348837209302"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0281007751937984"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-C3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="37823833"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-C3" ID="{B75C80E4-6AD8-49EC-9542-B55C5FFC8BE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-C" ID="{81B1C41B-0608-4F54-AA9E-62C72F3CB8BB}" ShortID="527485025">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-C" ID="{D2E3D285-0CFB-449B-8728-D3BE64EC3750}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0290697674418605"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0513565891472869"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-C.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="947554361"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-C" ID="{D2E3D285-0CFB-449B-8728-D3BE64EC3750}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-D2" ID="{1853CB9F-5001-4750-B48C-C01073B28C38}" ShortID="71145380">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-D2" ID="{DA32F151-7249-4C6B-86F7-5DC6CDA9CDB9}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0261627906976744"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0377906976744186"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-D2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="199027346"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-D2" ID="{DA32F151-7249-4C6B-86F7-5DC6CDA9CDB9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-D" ID="{7AE7BEDA-DBB0-4E8A-9035-EF1030B1C034}" ShortID="799360324">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-D" ID="{DD3CD48A-8503-40A0-8C48-A46CA2F8AED0}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0145348837209302"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0523255813953489"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-D.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="328740232"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-D" ID="{DD3CD48A-8503-40A0-8C48-A46CA2F8AED0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-E2" ID="{3D1D7A92-0D66-4773-86E3-F7C6085ED51B}" ShortID="301195630">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-E2" ID="{A05BDF80-C128-4511-A8EB-241C3AF6606A}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0155038759689922"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0290697674418605"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-E2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="158070986"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-E2" ID="{A05BDF80-C128-4511-A8EB-241C3AF6606A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-E" ID="{A9629302-50D9-4E59-BAD4-13C0CD4B1C28}" ShortID="421498193">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-E" ID="{755AAA3C-43F3-4E1D-808D-F8ECEB03ED41}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0184108527131783"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0436046511627907"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-E.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="428497779"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-E" ID="{755AAA3C-43F3-4E1D-808D-F8ECEB03ED41}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-F2" ID="{ED683B6B-522F-4A6C-AFB8-9F6A7E4C9DF6}" ShortID="249496813">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-F2" ID="{6D042858-9FAF-41B3-941C-3ED748434B44}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0145348837209302"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0348837209302326"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-F2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="836061488"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-F2" ID="{6D042858-9FAF-41B3-941C-3ED748434B44}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-F" ID="{F660C684-9667-48C3-B4F3-A3DDA8181B19}" ShortID="351913165">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-F" ID="{5D774F51-B0C1-4EC1-8D7B-D5D5A2E5AE22}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0116279069767442"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0329457364341085"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-F.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="778087833"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-F" ID="{5D774F51-B0C1-4EC1-8D7B-D5D5A2E5AE22}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-Asharp3" ID="{9C12D263-3DDC-4F24-B328-F97FC28C445D}" ShortID="744805481">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-Asharp3" ID="{F1368DEA-2E94-468C-BFD4-1E3E794E2EC9}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0329457364341085"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.064922480620155"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-Asharp3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1037027839"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-Asharp3" ID="{F1368DEA-2E94-468C-BFD4-1E3E794E2EC9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="violin-High-Asharp" ID="{9F0FF368-1241-4412-B0AE-141F34C34CE9}" ShortID="869699410">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="violin-High-Asharp" ID="{67F765EA-6873-4FB8-BA15-2284AFC5B394}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0222868217054264"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0368217054263566"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>violin-High-Asharp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1067332995"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="violin-High-Asharp" ID="{67F765EA-6873-4FB8-BA15-2284AFC5B394}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Cello-Legato" ID="{C567458A-1A8D-4F35-A2F7-206543AD1B50}" ShortID="795356194">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="TheLine" ID="{3E1B9D58-639A-4C2E-B262-5648E3D43F81}" WorkUnitID="{04691447-D2D6-40AA-AB26-DF361A459E3D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="LineSounds" ID="{1B46531A-6A25-4040-9EA6-7171C44D5A06}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="cello-C" ID="{D660ABA3-547D-49B6-8068-993A66758F6D}" ShortID="804214770">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cello-C" ID="{86FF8169-6971-41AA-807A-8B5A78CFC9A6}">
+									<Language>SFX</Language>
+									<AudioFile>cello-C.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1061953180"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cello-C" ID="{86FF8169-6971-41AA-807A-8B5A78CFC9A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cello-E" ID="{DA330359-6499-4D8E-BB96-E7FF25FA9DD3}" ShortID="976552382">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cello-E" ID="{1EBC87FE-46A7-4A4C-9FF4-B811AB484FD8}">
+									<Language>SFX</Language>
+									<AudioFile>cello-E.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="770948612"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cello-E" ID="{1EBC87FE-46A7-4A4C-9FF4-B811AB484FD8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="drums" ID="{21348638-7F8C-420C-82F8-A78CA45207C8}" ShortID="967473181">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="drum1" ID="{CF207FFB-A03D-4AAB-AD4A-C6568D2261B5}" ShortID="459775959">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="drum1" ID="{D47F7E5E-BA28-4183-AC52-DD41E449AD3C}">
+									<Language>SFX</Language>
+									<AudioFile>drum1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="598337302"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="drum1" ID="{D47F7E5E-BA28-4183-AC52-DD41E449AD3C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="TubaSolo" ID="{1DBFFD89-1FEE-4CE6-9CDC-39F23A27D503}" ShortID="9173644">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="TheLine" ID="{3E1B9D58-639A-4C2E-B262-5648E3D43F81}" WorkUnitID="{04691447-D2D6-40AA-AB26-DF361A459E3D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="LineSounds" ID="{1B46531A-6A25-4040-9EA6-7171C44D5A06}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Tuba-1" ID="{6E088A06-7C33-46B6-B929-0819E16507B7}" ShortID="634120608">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-1" ID="{17D5FAB4-CCC6-4069-B223-64879F0FF171}">
+									<Language>SFX</Language>
+									<AudioFile>Tuba-1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="638195765"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-1" ID="{17D5FAB4-CCC6-4069-B223-64879F0FF171}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-2" ID="{BF462450-7376-42B3-B15A-CCE0A282ADA7}" ShortID="1002696786">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-2" ID="{C7A7A2D1-6811-4C84-9239-236CA47F7201}">
+									<Language>SFX</Language>
+									<AudioFile>Tuba-2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="208068412"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-2" ID="{C7A7A2D1-6811-4C84-9239-236CA47F7201}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-3" ID="{D692DB2A-861A-4DDA-9313-F7E6AF4BE66B}" ShortID="954787120">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-3" ID="{1B30AD8C-1E03-4141-A6B4-A12A0193DDB8}">
+									<Language>SFX</Language>
+									<AudioFile>Tuba-3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="753600957"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-3" ID="{1B30AD8C-1E03-4141-A6B4-A12A0193DDB8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-4" ID="{D557D3F5-8D44-4DAA-856D-C8BEEDC0618F}" ShortID="1008897026">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-4" ID="{ADE54FC1-277A-4978-835F-5283FF5BBB1F}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.527131782945736"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tuba-4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="290312505"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-4" ID="{ADE54FC1-277A-4978-835F-5283FF5BBB1F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-5" ID="{FD26ED54-1BEF-46F7-BBE4-060F0F32225E}" ShortID="296569934">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-5" ID="{BCD22E54-DE47-417B-8294-B0F2803B6F28}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0813953488372094"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tuba-5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="33634356"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-5" ID="{BCD22E54-DE47-417B-8294-B0F2803B6F28}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-6" ID="{A2D5165A-C47C-4C3B-B2FA-4BE53ADC98C9}" ShortID="247813644">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-6" ID="{2B91F48B-49F3-4F55-AF7C-A4CD6B543F6E}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0736434108527131"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tuba-6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="191845548"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-6" ID="{2B91F48B-49F3-4F55-AF7C-A4CD6B543F6E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-7" ID="{313D92E7-2884-4B3B-B3ED-049811320097}" ShortID="419143466">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-7" ID="{DA6CA454-E48E-4C56-B77A-5283AC2694AC}">
+									<Language>SFX</Language>
+									<AudioFile>Tuba-7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="345165860"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-7" ID="{DA6CA454-E48E-4C56-B77A-5283AC2694AC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-8" ID="{F415BFE5-3C6D-4576-A1C8-ECBF55BFD4E2}" ShortID="307477742">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-8" ID="{8914055C-234D-401A-9974-D427C65FEC0D}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.186046511627907"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0116279069767442"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tuba-8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="929748562"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-8" ID="{8914055C-234D-401A-9974-D427C65FEC0D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-9" ID="{EEBC66D2-92FA-4026-9B5B-145E4EF60633}" ShortID="887319073">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-9" ID="{FD991EDF-BC2C-444C-B498-ECCC04FB465C}">
+									<Language>SFX</Language>
+									<AudioFile>Tuba-9.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="505470351"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-9" ID="{FD991EDF-BC2C-444C-B498-ECCC04FB465C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-10" ID="{608DA702-18A1-417F-AE20-6411256B608B}" ShortID="740715099">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-10" ID="{79C72ACD-45F9-4660-9316-18912C694F11}">
+									<Language>SFX</Language>
+									<AudioFile>Tuba-10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="923517229"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-10" ID="{79C72ACD-45F9-4660-9316-18912C694F11}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-11" ID="{24328A44-42D7-4F5D-A9F9-0F2EDE83728E}" ShortID="209202061">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-11" ID="{9F6A2C02-00E9-4A54-B868-D720754D7A02}">
+									<Language>SFX</Language>
+									<AudioFile>Tuba-11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="155035390"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-11" ID="{9F6A2C02-00E9-4A54-B868-D720754D7A02}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-12" ID="{37FBDD4F-4F3D-4374-96E1-038C7D4E07E3}" ShortID="958265018">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-12" ID="{5491F019-3EC7-4007-88C5-BC61A7CA9F13}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0465116279069767"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.054263565891473"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tuba-12.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="979487927"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-12" ID="{5491F019-3EC7-4007-88C5-BC61A7CA9F13}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-13" ID="{EF1CE27D-7D52-44F7-B796-9092F644863C}" ShortID="956320792">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-13" ID="{087F9954-C4BE-41E5-A6E8-E92B16F4F92D}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0697674418604651"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.197674418604651"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tuba-13.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1139395"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-13" ID="{087F9954-C4BE-41E5-A6E8-E92B16F4F92D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuba-14" ID="{57037A03-AF4A-4B18-8FF1-3AB35CF0DBE5}" ShortID="665610119">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4EC47F90-851E-450B-900E-CCAC783CB875}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7436D592-7391-44F0-921B-62FDD34D66DA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tuba-14" ID="{115F8110-7403-4BA3-806A-6CC62E3A14B0}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.310077519379845"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.635658914728682"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tuba-14.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="442729391"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tuba-14" ID="{115F8110-7403-4BA3-806A-6CC62E3A14B0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
